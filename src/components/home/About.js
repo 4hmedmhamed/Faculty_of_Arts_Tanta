@@ -5,21 +5,22 @@ import { about } from "../data/Data";
 export default function About() {
   return (
     <>
-      <div className="container-xxl py-5">
+      <div className="container-xxl py-5" dir="rtl" >
         <div className="container">
           <div className="row g-5 align-items-center">
+          
             <div className="col-lg-6">
-              <h6 className="section-title text-start text-primary text-uppercase">
-                About Us
+              <h6 className="section-title text-start text-primary text-uppercase fs-3">
+              كلية الآداب
               </h6>
               <h1 className="mb-4">
-                Welcome to{" "}
-                <span className="text-primary text-uppercase">Hotelier</span>
+              كلية الآداب جامعة طنطا {" "}
+                <span className="text-primary text-uppercase">فى مجمع سيبرباى</span>
               </h1>
-              <p className="mb-4">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                sed stet lorem sit clita duo justo magna dolore erat amet
+              <p className="mb-4 fs-4">
+              
+              المجمع والتى تم إفتتاحها عام 2005 م ثم أخذت الكلية تنمو وتتسع سنة بعد أخرى بشكل ملحوظ ظهر التوسع فى إنشاء أقسام جديدة ولزيادة اعداد المقبولين بها من الطلاب وقد صاحب هذا النمو تطور ملموس فى المجالات العلمية حيث إزدادت وتنوعت مجالات التخصص وقدتم إفتتاح المبنى الجديد للكلية وأصبحت جاهزة للدراسة فى العام الدراسى 2023/2024 وقد 
+              إهتمت برعاية ذوى الإعاقة وتم إنشاء مركز 
               </p>
               <div className="row g-3 pb-4">
                 {about.map((item, key) => (
@@ -42,6 +43,14 @@ export default function About() {
             </div>
             <div className="col-lg-6">
               <div className="row g-3">
+               
+                <div className="col-6 text-start">
+                  <img
+                    className="img-fluid rounded w-100 wow zoomIn"
+                    data-wow-delay="0.3s"
+                    src="/assets/img/about-2.jpg"
+                  />
+                </div>
                 <div className="col-6 text-end">
                   <img
                     className="img-fluid rounded w-75 wow zoomIn"
@@ -52,19 +61,12 @@ export default function About() {
                 </div>
                 <div className="col-6 text-start">
                   <img
-                    className="img-fluid rounded w-100 wow zoomIn"
-                    data-wow-delay="0.3s"
-                    src="/assets/img/about-2.jpg"
-                  />
-                </div>
-                <div className="col-6 text-end">
-                  <img
                     className="img-fluid rounded w-50 wow zoomIn"
                     data-wow-delay="0.5s"
                     src="/assets/img/about-3.jpg"
                   />
                 </div>
-                <div className="col-6 text-start">
+                <div className="col-6 text-end">
                   <img
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.7s"
