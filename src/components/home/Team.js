@@ -13,26 +13,20 @@ export default function Teams() {
             subtitle="Explore Our"
             title="Staffs"
           />
-          <div className="row g-4">
+          <div className="row g-4  d-flex justify-content-center">
             {team.map((item, index) => (
               <div
-                className="col-lg-3 col-md-6 wow fadeInUp"
+                className="col-lg-3 col-md-6 col  wow fadeInUp"
                 data-wow-delay="0.1s"
                 key={index}
               >
-                <div className="rounded shadow overflow-hidden">
+                <div className="rounded shadow overflow-hidden ">
                   <div className="position-relative">
+                     <a href={item.Link}>
                     <img className="img-fluid" src={item.image} alt="img" />
+                     </a>
                     <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                      {socialIcons.slice(0, 3).map((val, index) => (
-                        <a
-                          className="btn btn-square btn-primary mx-1"
-                          href=""
-                          key={index}
-                        >
-                          {val.icon}
-                        </a>
-                      ))}
+
                     </div>
                   </div>
                   <div className="text-center p-4 mt-3">

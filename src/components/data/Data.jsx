@@ -70,32 +70,30 @@ export const carouselData = [
     img: "../assets/img/carousel-1.jpg",
     title: "Discover A Brand Luxurious Hotel",
     subtitle: "luxury living",
-    btn1: "Our Room",
-    btn2: "Book Room",
+  
   },
   {
     img: "../assets/img/carousel-2.jpg",
     title: "Discover A Brand Luxurious Hotel",
     subtitle: "luxury living",
-    btn1: "Our Room",
-    btn2: "Book Room",
+  
   },
 ];
 export const about = [
   {
     icon: <i class="fa fa-hotel fa-2x text-primary mb-2"></i>,
-    text: "Rooms",
-    count: "7861",
+    text: "الطوابق ",
+    count: "5",
   },
   {
     icon: <i class="fa fa-users fa-2x text-primary mb-2"></i>,
-    text: "Staffs",
-    count: "1234",
+    text: "الطلاب",
+    count: "16374",
   },
   {
     icon: <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>,
-    text: "Clients",
-    count: "4321",
+    text: "الموظفين",
+    count: "329",
   },
 ];
 
@@ -103,54 +101,81 @@ export const services = [
   {
     icon: <i class="fa fa-hotel fa-2x text-primary"></i>,
     name: "Rooms & Appartment",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    discription: "تكون دليل ومرشد للطلاب الجدد فى الكلية لمنع حدوث مشكلات فى معرفة أماكن .",
   },
   {
-    icon: <i class="fa fa-utensils fa-2x text-primary"></i>,
+    icon:<i class="fa fa-spa fa-2x text-primary"></i>,
+
+    
     name: "Food & Restaurant",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    discription: "	سهوله عرض البيانات على الويب سايت لتسهيل حركة الطلاب فى الكلية ..",
   },
   {
     icon: <i class="fa fa-spa fa-2x text-primary"></i>,
     name: "Spa & Fitness",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    discription: "	تسهل على الطلاب توفير الوقت وتسهيل الدراسة وتنجز لهم الكثير من الإنجازات من دون عبء حيث يمكن أنجاز كل ذلك من خلال الانترنت .",
   },
 
   {
-    icon: <i class="fa fa-swimmer fa-2x text-primary"></i>,
+    icon: <i class="fa fa-camera-retro  fa-2x text-primary"></i>,
     name: "Sports & Gaming",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    discription: "	وتسهل على الطلاب الجدد الإحاطة الكاملة عن كل الأماكن فى الكلية والعرض السلس لها ..",
   },
   {
     icon: <i class="fa fa-glass-cheers fa-2x text-primary"></i>,
     name: "Event & Party",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    discription: "	عرض الخدمات والمساعدات للطلاب فى تصفح الموقع ويوفر الراحة ويقلل من الجهد والوقت ..",
   },
 
   {
     icon: <i class="fa fa-dumbbell fa-2x text-primary"></i>,
     name: "GYM & Yoga",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    discription: "	تسهيل التواصل بين الطلاب والدكتور وتعتبر من الوسائل الرائعة فى تيسير عملية التعليم وذلك من خلال التعليم عن بعد للتواصل بين الجامعات بواسطة المواقع الإلكترونية .",
   },
 ];
 export const team = [
   {
-    image: "../assets/img/team-1.jpg",
+    image: "../assets/img/team9.jpg",
     name: "Full Name",
     designation: "Designation",
   },
   {
-    image: "../assets/img/team-2.jpg",
+    image: "../assets/img/team8.jpg",
     name: "Full Name",
     designation: "Designation",
   },
   {
-    image: "../assets/img/team-3.jpg",
+    image: "../assets/img/team3.jpg",
     name: "Full Name",
     designation: "Designation",
   },
   {
-    image: "../assets/img/team-3.jpg",
+    image: "../assets/img/team4.jpg",
+    name: "Full Name",
+    designation: "Designation",
+  },
+  {
+    image: "../assets/img/team5.jpg",
+    name: "Full Name",
+    designation: "Designation",
+  },
+  {
+    image: "../assets/img/team6.jpg",
+    name: "الوليه سمر",
+    designation: "Designation",
+  },
+  {
+    image: "../assets/img/team7.jpg",
+    name: "Full Name",
+    designation: "Designation",
+  },
+  {
+    image: "../assets/img/team2.jpg",
+    name: "Full Name",
+    designation: "Designation",
+  },
+  {
+    image: "../assets/img/team1.jpg",
     name: "Full Name",
     designation: "Designation",
   },
@@ -204,15 +229,15 @@ export const footerItem = [
 export const footerContact = [
   {
     icon: <i className="fa fa-map-marker-alt me-3"></i>,
-    name: "123 Street, New York, USA",
+    // name: "123 Street, New York, USA",
   },
   {
     icon: <i className="fa fa-phone-alt me-3"></i>,
-    name: "+012 345 67890",
+    // name: "+012 345 67890",
   },
   {
     icon: <i className="fa fa-envelope me-3"></i>,
-    name: "info@example.com",
+    // name: "info@example.com",
   },
 ];
 
@@ -220,17 +245,17 @@ export const contact = [
   {
     icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
     title: "Booking",
-    email: "book@example.com",
+    // email: "book@example.com",
   },
   {
     icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
     title: "Technical",
-    email: "tech@example.com",
+    // email: "tech@example.com",
   },
   {
     icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
     title: "General",
-    email: "info@example.com",
+    // email: "info@example.com",
   },
 ];
 export const testimonial = [
@@ -268,7 +293,7 @@ export const testimonial = [
 
 export const roomItems = [
   {
-    img: "../assets/img/room-1.jpg",
+    img: "../assets/img/too.png",
     price: "$110/night",
     name: "Junior Suit",
     star: [
@@ -285,7 +310,7 @@ export const roomItems = [
   },
 
   {
-    img: "../assets/img/room-2.jpg",
+    img: "../assets/img/too.png",
     price: "$110/night",
     name: "Executive Suite",
     star: [
@@ -301,7 +326,55 @@ export const roomItems = [
     darkbtn: "book now",
   },
   {
-    img: "../assets/img/room-3.jpg",
+    img: "../assets/img/too.png",
+    price: "$110/night",
+    name: "Super Deluxe",
+    star: [
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+    ],
+    description:
+      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+    yellowbtn: "View Detail",
+    darkbtn: "book now",
+  },
+  {
+    img: "../assets/img/too.png",
+    price: "$110/night",
+    name: "Super Deluxe",
+    star: [
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+    ],
+    description:
+      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+    yellowbtn: "View Detail",
+    darkbtn: "book now",
+  },
+  {
+    img: "../assets/img/too.png",
+    price: "$110/night",
+    name: "Super Deluxe",
+    star: [
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+    ],
+    description:
+      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+    yellowbtn: "View Detail",
+    darkbtn: "book now",
+  },
+  {
+    img: "../assets/img/too.png",
     price: "$110/night",
     name: "Super Deluxe",
     star: [

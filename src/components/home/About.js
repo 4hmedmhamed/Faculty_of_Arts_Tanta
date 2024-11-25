@@ -5,15 +5,16 @@ import { about } from "../data/Data";
 export default function About() {
   return (
     <>
-      <div className="container-xxl py-5" dir="rtl" >
+      <div className="container-xxl py-" dir="rtl" >
+        
         <div className="container">
           <div className="row g-5 align-items-center">
           
             <div className="col-lg-6">
-              <h6 className="section-title text-start text-primary text-uppercase fs-3">
+              <h6 className="section-title text-end text-primary  fs-5">
               كلية الآداب
               </h6>
-              <h1 className="mb-4">
+              <h1 className="mb-2">
               كلية الآداب جامعة طنطا {" "}
                 <span className="text-primary text-uppercase">فى مجمع سيبرباى</span>
               </h1>

@@ -10,8 +10,8 @@ export default function Services() {
           <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
             <CommonHeading
               heading="Our Services"
-              title="Services"
-              subtitle="Explore Our"
+              title="خدماتنا"
+              subtitle="اكتشف "
             />
           </div>
           <div className="row g-4">
