@@ -21,5 +21,9 @@
     bottom: 0;
 }
 .bg-image {
-    background-image: url('../public/assets/img/carousel-1.jpg');
+    background-image: url('../public/assets/img/team22.jpg');
+}
+.Logo{
+    width: 80px;
+    height: auto;
 }

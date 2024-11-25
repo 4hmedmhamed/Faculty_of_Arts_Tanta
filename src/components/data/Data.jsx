@@ -66,16 +66,23 @@ export const socialIcons = [
 ];
 
 export const carouselData = [
+
   {
-    img: "../assets/img/carousel-1.jpg",
-    title: "Discover A Brand Luxurious Hotel",
-    subtitle: "luxury living",
+    img: "../assets/img/croucel1.jpg",
+    title: "كليه الاداب جامعه طنطا",
+    subtitle: "كليه الاداب",
   
   },
   {
-    img: "../assets/img/carousel-2.jpg",
-    title: "Discover A Brand Luxurious Hotel",
-    subtitle: "luxury living",
+    img: "../assets/img/lucher.png",
+    title: "كليه الاداب جامعه طنطا",
+    subtitle: "كليه الاداب",
+  
+  },
+  {
+    img: "../assets/img/team22.jpg",
+    title: "كليه الاداب جامعه طنطا",
+    subtitle: "كليه الاداب",
   
   },
 ];
