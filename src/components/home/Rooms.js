@@ -65,8 +65,9 @@ export default function Rooms() {
             </LightGallery>
 
                     {/*  */}
-                    <small className="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">
-                      {item.price}
+                    <small className="position-absolute end-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">
+                      {/* {item.price} */}
+                      الدور الاول
                     </small>
                   </div>
                   <div className="p-4 mt-2">
@@ -77,8 +78,8 @@ export default function Rooms() {
                     <div className="d-flex mb-3">
                       {facility.map((item, index) => (
                         <small className="border-end me-3 pe-3">
-                          {item.icon}
-                          {item.quantity} {item.facility}
+                          {/* {item.icon} */}
+                          {/* {item.quantity} {item.facility} */}
                         </small>
                       ))}
                     </div>

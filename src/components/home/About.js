@@ -49,29 +49,29 @@ export default function About() {
                   <img
                     className="img-fluid rounded w-100 wow zoomIn"
                     data-wow-delay="0.3s"
-                    src="/assets/img/about-2.jpg"
+                    src="\assets\img\IMG-20241012-WA0205.jpg"
                   />
                 </div>
                 <div className="col-6 text-end">
                   <img
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.1s"
-                    src="/assets/img/about-1.jpg"
-                    style={{ marginTop: "25%" }}
+                    src="\assets\img\IMG-20241012-WA0221.jpg"
+                    style={{ marginTop: "40%" }}
                   />
                 </div>
                 <div className="col-6 text-start">
                   <img
                     className="img-fluid rounded w-50 wow zoomIn"
                     data-wow-delay="0.5s"
-                    src="/assets/img/about-3.jpg"
+                    src="/assets/img/IMG-20241125-WA0037.jpg"
                   />
                 </div>
                 <div className="col-6 text-end">
                   <img
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.7s"
-                    src="/assets/img/about-4.jpg"
+                    src="/assets/img/IMG-20241012-WA0177.jpg"
                   />
                 </div>
               </div>
