@@ -20,6 +20,8 @@
 }
 .bg-image {
     background-image: url('../public/assets/img/team22.jpg');
+    width: 100%;
+    height: 100%;
 }
 .Logo{
     width: 80px;
