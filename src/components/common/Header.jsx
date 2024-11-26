@@ -25,13 +25,13 @@ export default function Header() {
               to="/"
               className="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center"
             >
-              <img src="\assets\img\Logo-Photoroom.png"  className="Logo"/>
+              <img src="\assets\img\Logo-Photoroom.png" className="Logo" />
             </Link>
           </div>
           <div className="col-lg-9">
             <nav className="navbar navbar-expand-lg  navbar-dark p-3 p-lg-0">
               <Link to="/" className="navbar-brand d-block d-lg-none">
-                <h1 className="m-0 text-primary text-uppercase">دليل كليه اداب  طنطا</h1>
+                <img src="\assets\img\Logo-Photoroom.png" className="Logo" style={{ width: "50px" }} />
               </Link>
               <button
                 type="button"
@@ -60,9 +60,8 @@ export default function Header() {
                             {item.text}
                           </Link>
                           <div
-                            className={`dropdown-menu rounded-0 m-0 ${
-                              activeDropdown === item.id ? "show" : ""
-                            }`}
+                            className={`dropdown-menu rounded-0 m-0 ${activeDropdown === item.id ? "show" : ""
+                              }`}
                           >
                             {item.subItems.map((sub) => (
                               <Link to={sub.path} className="dropdown-item">

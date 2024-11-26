@@ -28,7 +28,7 @@ export default function Carousel() {
   };
   return (
     <>
-      <div className="container-fluid p-0 mb-5">
+      <div className="container-fluid p-0 mb-5" >
         <div
           id="header-carousel"
           className="carousel slide"
@@ -38,15 +38,15 @@ export default function Carousel() {
             <Slider ref={sliderRef} {...settings}>
               {carouselData.map((val, index) => (
                 <div className="carousel-item" key={index}>
-                  <img className="w-100" src={val.img} alt="Image" />
+                  <img className="w-100" src={val.img} alt="Image"  style={{height:"90vh"}} />
                   <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    <div className="p-3" style={{ maxWidth: "700px" }}>
+                    <div className="p-3" style={{ maxWidth: "700px"  }}>
                       <h6 className="section-title text-white text-uppercase mb-3 animated slideInDown">
                         {val.subtitle}
                       </h6>
-                      <h1 className="display-3 text-white mb-4 animated slideInDown">
+                      <h3 className="display-5 text-white mb-4 animated slideInDown">
                         {val.title}
-                      </h1>
+                      </h3>
                     
                     </div>
                   </div>

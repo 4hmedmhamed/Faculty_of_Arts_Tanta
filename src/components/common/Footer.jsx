@@ -9,16 +9,16 @@ export default function Footer() {
         className="container-fluid bg-dark text-light footer wow fadeIn mt-5"
         data-wow-delay="0.1s"
       >
-        <div className="container pb-5">
-          <div className="row g-5">
+       
+        <div className="container ">
+          <div className="row ">
             <div className="col-md-6 col-lg-4">
               <div className="bg-primary rounded p-4">
                 <Link to="/">
-                  <h1 className="text-white text-uppercase mb-3">Hotelier</h1>
+                  <h1 className="text-white text-uppercase mb-3">كلية الآداب</h1>
                 </Link>
                 <p className="text-white mb-0">
-                  Build a professional website for your hotel business and grab
-                  the attention of new visitors upon your site’s launch.
+                المجمع والتى تم إفتتاحها عام 2005 م ثم أخذت الكلية تنمو وتتسع سنة بعد أخرى بشكل ملحوظ ظهر التوسع فى إنشاء أقسام جديدة 
                 </p>
               </div>
             </div>

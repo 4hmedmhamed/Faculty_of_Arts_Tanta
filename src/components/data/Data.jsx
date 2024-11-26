@@ -75,7 +75,7 @@ export const carouselData = [
   },
   {
     img: "../assets/img/lucher.png",
-    title: "كليه الاداب جامعه طنطا",
+    title: "Dr:Alaa Eldin ",
     subtitle: "كليه الاداب",
   
   },
@@ -168,7 +168,7 @@ export const team = [
   },
   {
     image: "../assets/img/team6.jpg",
-    name: "الوليه سمر",
+    name: "Samar Anwar",
     designation: "Designation",
   },
   {
