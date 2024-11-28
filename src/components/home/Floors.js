@@ -33,7 +33,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 import CommonHeading from "../common/CommonHeading";
-import {  roomItems } from "../data/Data";
+import {  floorItems } from "../data/Data";
 
 export default function Floors() {
   
@@ -48,16 +48,16 @@ export default function Floors() {
             subtitle="Explore Our"
           />
           <div className="row g-4">
-            {roomItems.map((item, key) => (
+            {floorItems.map((item, key) => (
               <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div className="room-item shadow rounded overflow-hidden">
+                <div className="room-item shadow rounded ">
                   <div className="position-relative">
                     {/* <img className="img-fluid" src={item.img} alt="img" /> */}
-            <LightGallery plugins={[lgZoom, lgVideo, lgShare, lgfullscreen, lgpager, lgthumbnail, lgcomments,]} className="img-fluid">
+            <LightGallery plugins={[ lgVideo, lgShare, lgfullscreen, lgpager, lgthumbnail, lgcomments,]}>
               <div  
-                //  data-lg-size="1600-1600"
-                data-sub-html="<h4>Photo by -Ahmed  </a></h4><p> Location - <a href='http://localhost:3000/'>Detawy</a></p>"
-                data-src={item.img}  className=''>
+                 data-lg-size="1600-1600"
+                data-sub-html="<h4>Photo by -Ahmed <h4>"
+                data-src={item.second}  className=''>
                 <div>
                 <img src={item.img} alt="img" className="img-fluid"/>
                 </div>
@@ -67,6 +67,7 @@ export default function Floors() {
                     {/*  */}
                     <small className="position-absolute end-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 fs-5">
                       {item.name}
+                      {item.second} 
                     </small>
                   </div>
                   <div className="p-4 mt-2">
