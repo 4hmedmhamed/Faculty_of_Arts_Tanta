@@ -57,7 +57,7 @@ export default function Floors() {
               <div  
                  data-lg-size="1600-1600"
                 data-sub-html="<h4>Photo by -Ahmed <h4>"
-                data-src={item.second}  className=''>
+                data-src={item.img}  className=''>
                 <div>
                 <img src={item.img} alt="img" className="img-fluid"/>
                 </div>
@@ -67,7 +67,6 @@ export default function Floors() {
                     {/*  */}
                     <small className="position-absolute end-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 fs-5">
                       {item.name}
-                      {item.second} 
                     </small>
                   </div>
                   <div className="p-4 mt-2">

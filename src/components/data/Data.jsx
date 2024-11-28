@@ -214,7 +214,82 @@ export const testimonial = [
 export const floorItems = [
   {
     img: "../assets/img/frist.png",
-    second: "../assets/img/second.png",
+    name: "الدور الارضي",
+    star: [
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+    ],
+    description:
+      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+    yellowbtn: "View Detail",
+    darkbtn: "book now",
+  },
+  
+  {
+    img: "../assets/img/frist.png",
+    name: "الدور الارضي",
+    star: [
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+    ],
+    description:
+      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+    yellowbtn: "View Detail",
+    darkbtn: "book now",
+  },
+  {
+    img: "../assets/img/frist.png",
+    name: "الدور الارضي",
+    star: [
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+    ],
+    description:
+      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+    yellowbtn: "View Detail",
+    darkbtn: "book now",
+  },
+  {
+    img: "../assets/img/frist.png",
+    name: "الدور الارضي",
+    star: [
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+    ],
+    description:
+      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+    yellowbtn: "View Detail",
+    darkbtn: "book now",
+  },
+  {
+    img: "../assets/img/frist.png",
+    name: "الدور الارضي",
+    star: [
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+    ],
+    description:
+      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+    yellowbtn: "View Detail",
+    darkbtn: "book now",
+  },
+  {
+    img: "../assets/img/frist.png",
     name: "الدور الارضي",
     star: [
       <small class="fa fa-star text-primary"></small>,
