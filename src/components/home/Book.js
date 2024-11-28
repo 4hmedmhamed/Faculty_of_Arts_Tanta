@@ -46,12 +46,7 @@ const Book = (AppProps, AppState) => {
     <h1>Slider</h1>
       <br></br>
       <br></br>
-
-     
-
-
       <div className="slider-container">
-
           <div className=''>
           <div className='eddit'>
             <LightGallery plugins={[lgZoom, lgVideo, lgShare, lgfullscreen, lgpager, lgthumbnail, lgcomments,]} mode="lg-fade">
@@ -86,13 +81,10 @@ const Book = (AppProps, AppState) => {
             </LightGallery>
 
           </div>
-
         {/* </Slider> */}
           </div>
       </div>
-
     </div>
-
   );
 }
 

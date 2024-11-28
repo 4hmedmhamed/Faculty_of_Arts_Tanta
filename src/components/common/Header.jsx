@@ -18,7 +18,7 @@ export default function Header() {
 
   return (
     <>
-      <div className="container-fluid bg-dark px-0">
+      <div className="container-fluid bg-dark px-0" dir="rtl">
         <div className="row gx-0">
           <div className="col-lg-3  d-none d-lg-block">
             <Link
@@ -43,35 +43,16 @@ export default function Header() {
               <div
                 className={
                   navbarCollapse
-                    ? "navbar-collapse justify-content-around navbarCollapse"
-                    : "collapse navbar-collapse justify-content-around"
+                    ? "navbar-collapse justify-content-around navbarCollapse text-center border-bottom"
+                    : "collapse navbar-collapse justify-content-around "
                 }
               >
                 <div className="navbar-nav mr-auto py-0">
                   {navList.map((item, index) => (
                     <div key={index}>
-                      {item.subItems ? (
-                        <div
-                          className="nav-item dropdown"
-                          onMouseEnter={() => handleMouseEnter(item.id)}
-                          onMouseLeave={handleMouseLeave}
-                        >
-                          <Link className="nav-link dropdown-toggle">
-                            {item.text}
-                          </Link>
-                          <div
-                            className={`dropdown-menu rounded-0 m-0 ${activeDropdown === item.id ? "show" : ""
-                              }`}
-                          >
-                            {item.subItems.map((sub) => (
-                              <Link to={sub.path} className="dropdown-item">
-                                {sub.text}
-                              </Link>
-                            ))}
-                          </div>
-                        </div>
-                      ) : (
-                        <Link to={item.path} className="nav-item nav-link">
+                      {(
+                        <Link to={item.path} className={`nav-item nav-link fs-3 ${activeDropdown === item.id ? "show" : ""
+                        } `}>
                           {item.text}
                         </Link>
                       )}

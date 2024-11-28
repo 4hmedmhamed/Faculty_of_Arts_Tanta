@@ -2,49 +2,27 @@ export const navList = [
   {
     id: 1,
     path: "/",
-    text: "Home",
+    text: "الرئسيه",
   },
   {
     id: 2,
     path: "/about",
-    text: "About",
+    text: " الويب المساحي" ,
   },
   {
     id: 3,
     path: "/services",
-    text: "Services",
+    text: "خدمتنا",
   },
   {
     id: 4,
     path: "/rooms",
-    text: "Rooms",
-  },
-  {
-    id: 5,
-    path: "/page",
-    text: "Page",
-    subItems: [
-      {
-        id: 51,
-        path: "/booking",
-        text: "Booking",
-      },
-      {
-        id: 52,
-        path: "/team",
-        text: "Our Team",
-      },
-      {
-        id: 53,
-        path: "/testimonial",
-        text: "Testimonial",
-      },
-    ],
+    text: "الطوابق",
   },
   {
     id: 6,
     path: "/contact",
-    text: "Contact",
+    text: "موقعنا",
   },
 ];
 export const socialIcons = [
@@ -107,36 +85,28 @@ export const about = [
 export const services = [
   {
     icon: <i class="fa fa-hotel fa-2x text-primary"></i>,
-    name: "Rooms & Appartment",
     discription: "تكون دليل ومرشد للطلاب الجدد فى الكلية لمنع حدوث مشكلات فى معرفة أماكن .",
   },
   {
     icon:<i class="fa fa-spa fa-2x text-primary"></i>,
-
-    
-    name: "Food & Restaurant",
     discription: "	سهوله عرض البيانات على الويب سايت لتسهيل حركة الطلاب فى الكلية ..",
   },
   {
     icon: <i class="fa fa-spa fa-2x text-primary"></i>,
-    name: "Spa & Fitness",
     discription: "	تسهل على الطلاب توفير الوقت وتسهيل الدراسة وتنجز لهم الكثير من الإنجازات من دون عبء حيث يمكن أنجاز كل ذلك من خلال الانترنت .",
   },
 
   {
     icon: <i class="fa fa-camera-retro  fa-2x text-primary"></i>,
-    name: "Sports & Gaming",
     discription: "	وتسهل على الطلاب الجدد الإحاطة الكاملة عن كل الأماكن فى الكلية والعرض السلس لها ..",
   },
   {
     icon: <i class="fa fa-glass-cheers fa-2x text-primary"></i>,
-    name: "Event & Party",
     discription: "	عرض الخدمات والمساعدات للطلاب فى تصفح الموقع ويوفر الراحة ويقلل من الجهد والوقت ..",
   },
 
   {
     icon: <i class="fa fa-dumbbell fa-2x text-primary"></i>,
-    name: "GYM & Yoga",
     discription: "	تسهيل التواصل بين الطلاب والدكتور وتعتبر من الوسائل الرائعة فى تيسير عملية التعليم وذلك من خلال التعليم عن بعد للتواصل بين الجامعات بواسطة المواقع الإلكترونية .",
   },
 ];
@@ -188,65 +158,8 @@ export const team = [
   },
 ];
 
-export const footerItem = [
-  {
-    id: 1,
-    header: "Company",
-    UnitItem: [
-      {
-        name: "About Us",
-      },
-      {
-        name: "Contact Us",
-      },
-      {
-        name: "Privacy Policy",
-      },
-      {
-        name: "Terms & Condition",
-      },
-      {
-        name: "Support",
-      },
-    ],
-  },
-  {
-    id: 2,
-    header: "Services",
-    UnitItem: [
-      {
-        name: "Food & Restaurant",
-      },
-      {
-        name: "Spa & Fitness",
-      },
-      {
-        name: "Sports & Gaming",
-      },
-      {
-        name: "Event & Party",
-      },
-      {
-        name: "GYM & Yoga",
-      },
-    ],
-  },
-];
 
-export const footerContact = [
-  {
-    icon: <i className="fa fa-map-marker-alt me-3"></i>,
-    // name: "123 Street, New York, USA",
-  },
-  {
-    icon: <i className="fa fa-phone-alt me-3"></i>,
-    // name: "+012 345 67890",
-  },
-  {
-    icon: <i className="fa fa-envelope me-3"></i>,
-    // name: "info@example.com",
-  },
-];
+
 
 export const contact = [
   {
@@ -300,9 +213,83 @@ export const testimonial = [
 
 export const roomItems = [
   {
-    img: "../assets/img/too.png",
-    price: "$110/night",
-    name: "Junior Suit",
+    img: "../assets/img/frist.png",
+    name: "الدور الارضي",
+    star: [
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+    ],
+    description:
+      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+    yellowbtn: "View Detail",
+    darkbtn: "book now",
+  },
+  {
+    img: "../assets/img/frist.png",
+    name: "الدور الارضي",
+    star: [
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+    ],
+    description:
+      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+    yellowbtn: "View Detail",
+    darkbtn: "book now",
+  },
+  {
+    img: "../assets/img/frist.png",
+    name: "الدور الارضي",
+    star: [
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+    ],
+    description:
+      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+    yellowbtn: "View Detail",
+    darkbtn: "book now",
+  },
+  {
+    img: "../assets/img/frist.png",
+    name: "الدور الارضي",
+    star: [
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+    ],
+    description:
+      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+    yellowbtn: "View Detail",
+    darkbtn: "book now",
+  },
+  {
+    img: "../assets/img/frist.png",
+    name: "الدور الارضي",
+    star: [
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+    ],
+    description:
+      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+    yellowbtn: "View Detail",
+    darkbtn: "book now",
+  },
+  {
+    img: "../assets/img/frist.png",
+    name: "الدور الارضي",
     star: [
       <small class="fa fa-star text-primary"></small>,
       <small class="fa fa-star text-primary"></small>,
@@ -316,101 +303,5 @@ export const roomItems = [
     darkbtn: "book now",
   },
 
-  {
-    img: "../assets/img/too.png",
-    price: "$110/night",
-    name: "Executive Suite",
-    star: [
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-    ],
-    description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
-    yellowbtn: "View Detail",
-    darkbtn: "book now",
-  },
-  {
-    img: "../assets/img/too.png",
-    price: "$110/night",
-    name: "Super Deluxe",
-    star: [
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-    ],
-    description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
-    yellowbtn: "View Detail",
-    darkbtn: "book now",
-  },
-  {
-    img: "../assets/img/too.png",
-    price: "$110/night",
-    name: "Super Deluxe",
-    star: [
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-    ],
-    description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
-    yellowbtn: "View Detail",
-    darkbtn: "book now",
-  },
-  {
-    img: "../assets/img/too.png",
-    price: "$110/night",
-    name: "Super Deluxe",
-    star: [
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-    ],
-    description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
-    yellowbtn: "View Detail",
-    darkbtn: "book now",
-  },
-  {
-    img: "../assets/img/too.png",
-    price: "$110/night",
-    name: "Super Deluxe",
-    star: [
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-    ],
-    description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
-    yellowbtn: "View Detail",
-    darkbtn: "book now",
-  },
 ];
 
-export const facility = [
-  {
-    icon: <i class="fa fa-bed text-primary me-2"></i>,
-    quantity: 3,
-    facility: "bed",
-  },
-  {
-    icon: <i class="fa fa-bath text-primary me-2"></i>,
-    quantity: 2,
-    facility: "bath",
-  },
-  {
-    icon: <i class="fa fa-wifi text-primary me-2"></i>,
-    facility: "Wifi",
-  },
-];

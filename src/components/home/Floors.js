@@ -33,9 +33,9 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 import CommonHeading from "../common/CommonHeading";
-import { facility, roomItems } from "../data/Data";
+import {  roomItems } from "../data/Data";
 
-export default function Rooms() {
+export default function Floors() {
   
 
   return (
@@ -43,8 +43,8 @@ export default function Rooms() {
       <div className="container-xxl py-5">
         <div className="container">
           <CommonHeading
-            heading="Our Rooms"
-            title="Rooms"
+            heading="Our Floors"
+            title="Floors"
             subtitle="Explore Our"
           />
           <div className="row g-4">
@@ -65,23 +65,17 @@ export default function Rooms() {
             </LightGallery>
 
                     {/*  */}
-                    <small className="position-absolute end-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">
-                      {/* {item.price} */}
-                      الدور الاول
+                    <small className="position-absolute end-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 fs-5">
+                      {item.name}
                     </small>
                   </div>
                   <div className="p-4 mt-2">
                     <div className="d-flex justify-content-between mb-3">
-                      <h5 className="mb-0">{item.name}</h5>
                       <div className="ps-2">{item.star}</div>
+                      <h5 className="mb-0">{item.name}</h5>
                     </div>
                     <div className="d-flex mb-3">
-                      {facility.map((item, index) => (
-                        <small className="border-end me-3 pe-3">
-                          {/* {item.icon} */}
-                          {/* {item.quantity} {item.facility} */}
-                        </small>
-                      ))}
+                   
                     </div>
                     <p className="text-body mb-3">{item.description}</p>
                     <div className="d-flex justify-content-between">

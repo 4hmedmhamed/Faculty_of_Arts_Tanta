@@ -3,7 +3,7 @@ import Carousel from "./Carousel";
 import Book from "./Book";
 import About from "./About";
 import Services from "./Service";
-import Rooms from "./Rooms";
+import Floors from "./Floors";
 import Sliders from "./Slider";
 import Teams from "./Team";
 
@@ -13,7 +13,7 @@ export default function Home() {
       <Carousel />
       {/* <Book /> */}
       <About />
-      <Rooms />
+      <Floors />
       <Services />
       {/* <Sliders /> */}
       <Teams />
