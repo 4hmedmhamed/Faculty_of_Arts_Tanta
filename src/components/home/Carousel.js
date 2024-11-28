@@ -24,6 +24,9 @@ export default function Carousel() {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
+    autoplay: true,
+    speed: 4000,
+    autoplaySpeed: 4000,
     slidesToScroll: 1,
   };
   return (
