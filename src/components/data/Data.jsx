@@ -189,14 +189,14 @@ export const testimonial = [
   icon: (
     <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
   ),
-  img: "../assets/Slider/three.jpg",
+  img: "../assets/Slider/Three.jpg",
 },
 {
     name: "	4_	الرصد الأساسى النظرى للعمل المساحى.",
   icon: (
     <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
   ),
-  img: "../assets/Slider/four.jpg",
+  img: "../assets/Slider/Four.jpg",
 },
 
     
