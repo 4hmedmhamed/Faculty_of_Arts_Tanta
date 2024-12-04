@@ -51,9 +51,14 @@ export default function Header() {
                       {(
                         <Link to={item.path} className={`nav-item nav-link fs-3 ${activeDropdown === item.id ? "show" : ""
                         } `}
-                        onClick={() => handleMouseEnter(item.id)}
+                        onClick={() => handleMouseEnter(item.id) }
                         >
+                          <a
+                          onClick={() => setNavbarCollapse(!navbarCollapse)}
+                          >
                           {item.text}
+
+                          </a>
                         </Link>
                       )}
                     </div>
