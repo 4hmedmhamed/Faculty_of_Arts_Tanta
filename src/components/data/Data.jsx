@@ -16,7 +16,7 @@ export const navList = [
   },
   {
     id: 4,
-    path: "/rooms",
+    path: "/Floor",
     text: "الطوابق",
   },
   {
@@ -59,7 +59,7 @@ export const carouselData = [
   },
   {
     img: "../assets/img/team22.jpg",
-    title: "كليه الاداب جامعه طنطا",
+    // title: "كليه الاداب جامعه طنطا",
     subtitle: "كليه الاداب",
   
   },
@@ -112,46 +112,50 @@ export const services = [
 ];
 export const team = [
   {
+    id:"1",
     image: "../assets/img/team9.jpg",
     name: "Full Name",
     designation: "Designation",
+    te1:"0101"
   },
-  {
+  {id:"2",
     image: "../assets/img/team8.jpg",
     name: "Full Name",
     designation: "Designation",
   },
-  {
+  {id:"3",
     image: "../assets/img/team3.jpg",
     name: "Full Name",
     designation: "Designation",
   },
-  {
+  {id:"4",
     image: "../assets/img/team4.jpg",
     name: "Full Name",
     designation: "Designation",
   },
-  {
+  {id:"5",
     image: "../assets/img/team5.jpg",
     name: "Full Name",
     designation: "Designation",
   },
-  {
+  {id:"6",
     image: "../assets/img/team6.jpg",
     name: "Samar Anwar",
     designation: "Designation",
   },
-  {
+  {id:"7",
     image: "../assets/img/team7.jpg",
     name: "Full Name",
     designation: "Designation",
   },
   {
+     id:"8",
     image: "../assets/img/team2.jpg",
     name: "Full Name",
     designation: "Designation",
   },
   {
+     id:"9",
     image: "../assets/img/team1.jpg",
     name: "Full Name",
     designation: "Designation",
@@ -180,37 +184,64 @@ export const contact = [
 ];
 export const testimonial = [
   {
-    description:
-      "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
-    name: "Client Name",
-    profession: "Profession",
-    icon: (
-      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
-    ),
-    img: "../assets/img/testimonial-1.jpg",
-  },
+    name: "3_		إعدادات أولية في الحقل .",
+  profession: "Profession",
+  icon: (
+    <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+  ),
+  img: "../assets/Slider/three.jpg",
+},
+{
+    name: "	4_	الرصد الأساسى النظرى للعمل المساحى.",
+  icon: (
+    <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+  ),
+  img: "../assets/Slider/four.jpg",
+},
+
+    
   {
-    description:
-      "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
-    name: "Client Name",
-    profession: "Profession",
-    icon: (
-      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
-    ),
-    img: "../assets/img/testimonial-2.jpg",
-  },
+    name: "	5_	تصحيح الأعمال المساحية ( المسموح به ).",
+  icon: (
+    <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+  ),
+  img: "../assets/Slider/frist.jpg",
+},
+
+{
+    name: " 7_	كتابة تقريرالعمل المساحى.",
+  icon: (
+    <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+  ),
+  img: "../assets/Slider/frist.jpg",
+},
   {
-    description:
-      "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
-    name: "Client Name",
-    profession: "Profession",
+      name: " 1_ العمل المكتبى . ",
     icon: (
       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
     ),
-    img: "../assets/img/testimonial-3.jpg",
+    img: "../assets/Slider/frist.jpg",
   },
+
+  {
+      name: "2. اختيار الأجهزة المناسبة للعمل . ",
+    icon: (
+      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+    ),
+    img: "../assets/Slider/Second.jpg",
+  },
+ 
+
+  
+
 ];
 
+export const Banner =[
+  {
+    img:
+'    ../assets/img/hq720.jpg',
+  }
+] 
 export const floorItems = [
   {
     img: "../assets/img/frist.png",

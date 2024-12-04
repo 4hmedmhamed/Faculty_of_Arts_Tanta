@@ -37,7 +37,6 @@ import {  floorItems } from "../data/Data";
 
 export default function Floors() {
   
-
   return (
     <>
       <div className="container-xxl py-5">

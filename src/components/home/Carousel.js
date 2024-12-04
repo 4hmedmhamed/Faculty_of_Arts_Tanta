@@ -18,15 +18,15 @@ export default function Carousel() {
       sliderRef.current.slickPrev();
     }
   };
+  
 
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
     slidesToShow: 1,
     autoplay: true,
-    speed: 4000,
     autoplaySpeed: 4000,
+    speed: 500,
     slidesToScroll: 1,
   };
   return (
@@ -41,7 +41,7 @@ export default function Carousel() {
             <Slider ref={sliderRef} {...settings}>
               {carouselData.map((val, index) => (
                 <div className="carousel-item" key={index}>
-                  <img className="w-100" src={val.img} alt="Image"  style={{height:"60vh"}} />
+                  <img className="w-100" src={val.img} alt="Image"  style={{height:"80vh"}} />
                   <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div className="p-3" style={{ maxWidth: "700px"  }}>
                       <h6 className="section-title text-white text-uppercase mb-3 animated slideInDown">

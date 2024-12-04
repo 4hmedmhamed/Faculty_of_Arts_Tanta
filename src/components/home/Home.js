@@ -6,16 +6,17 @@ import Services from "./Service";
 import Floors from "./Floors";
 import Sliders from "./Slider";
 import Teams from "./Team";
-
+import Line from "./Line";
 export default function Home() {
   return (
     <>
       <Carousel />
-      {/* <Book /> */}
       <About />
       <Floors />
       <Services />
-      {/* <Sliders /> */}
+      <Book />
+      <Sliders />
+      <Line />
       <Teams />
     </>
   );

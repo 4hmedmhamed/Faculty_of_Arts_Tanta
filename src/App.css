@@ -27,3 +27,53 @@
     width: 80px;
     height: auto;
 }
+.GAllry_bg{
+    background-image: url("../public/assets/img/team24.jpg");
+   /* background-size: 100%;
+     object-fit: cover;
+    height: 100vh;
+    /* background-repeat: no-repeat; */
+
+    background-color: #cccccc;
+    /* height: 500px; */
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: relative;
+  
+}
+
+.img_Line_Bnner{
+    border-radius: 20px;
+    animation-name: frist;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    margin-right: 100%;
+    width: 100px;
+    opacity: .2;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes frist {
+     0%   { width: 100px; opacity: .2; margin-right: 100%;}
+  
+     100%   { width: 100%; opacity: 1; margin-right:0%;}
+   
+  }
+.img_Line_Bnner_sec{
+    border-radius: 20px;
+    animation-name: sec;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    margin-right: 100%;
+    width: 100px;
+    opacity: .2;
+    animation-fill-mode: both;
+    transform: rotate(0deg);
+  }
+  
+  @keyframes sec {
+     0%   { width: 100px; opacity: .2; margin-right: 100%; transform: rotate(0deg);}
+     100%   { width: 100%; opacity: 1; margin-right:0%; transform: rotate(360deg);}
+   
+  }

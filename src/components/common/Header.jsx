@@ -12,9 +12,7 @@ export default function Header() {
     setActiveDropdown(itemId);
   };
 
-  const handleMouseLeave = () => {
-    setActiveDropdown(null);
-  };
+
 
   return (
     <>
@@ -52,7 +50,9 @@ export default function Header() {
                     <div key={index}>
                       {(
                         <Link to={item.path} className={`nav-item nav-link fs-3 ${activeDropdown === item.id ? "show" : ""
-                        } `}>
+                        } `}
+                        onClick={() => handleMouseEnter(item.id)}
+                        >
                           {item.text}
                         </Link>
                       )}

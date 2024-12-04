@@ -2,10 +2,10 @@ import React from "react";
 import Heading from "../components/common/Heading";
 import Floors from "../components/home/Floors";
 
-export default function Room() {
+export default function Floor() {
   return (
     <>
-      <Heading heading="Room" title="Home" subtitle="Room" />
+      <Heading heading="Floors" title="Home" subtitle="Floors" />
       <Floors />
     </>
   );

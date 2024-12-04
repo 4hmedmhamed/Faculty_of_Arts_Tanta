@@ -403,6 +403,23 @@
     color: var(--secondary) !important;
 }
 
+/*  */
+.dev_teams.show  {
+    /* height:400px; */
+    /* background-color: #FEA116  ; */
+    border-radius: 20px;
+    box-shadow: rgb(130, 133, 133) 4px 4px  10px 10px;
+}
+
+.dev_teams.show .img_teams{
+ border-radius: 50%;
+ width: 90%;
+ border: 2px solid rgb(77, 77, 95);
+ /* box-shadow: #c7cbd3  5px 5px 10px 10px; */
+}
+
+
+
 
 /*** Footer ***/
 .newsletter {
