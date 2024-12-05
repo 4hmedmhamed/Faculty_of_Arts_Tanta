@@ -1,6 +1,6 @@
 import React from 'react'
 // import Banner from "../../../public/assets/img/hq720.jpg"
-
+import { floorItems } from '../data/Data'
 function Line() {
         return (
 
@@ -91,8 +91,25 @@ function Line() {
                                         <img src='../assets/img/hq720.jpg' className='  m-2 img_Line_Bnner' />
 
                                 </div>
-
+                                
+                                {floorItems.map((item, index) => (
+              <div className="col-lg-4 col-md-6 wow p-1 fadeInUp border-rounded " data-wow-delay="0.1s">
+                <a className="service-item rounded" >
+                  <div className=" bg-transparent border rounded ">
+                    <div className="w-100">
+                    <img
+                      className="img-fluid flex-shrink-0 rounded  mx-auto w-100 p-2 "
+                      src={item.img}
+                      // style={{ width: "200px", height: "auto" }}
+                    />
+                    </div>
+                  </div>
+                  <p className="text-body  fs-5">{item.name}</p>
+                </a>
+              </div>
+            ))}
                         </div>
+                        
                 </div>
         )
 }

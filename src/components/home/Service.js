@@ -31,45 +31,14 @@ export default function Services() {
             <br></br>
             <br></br>
             <br></br>
-            {testimonial.map((item, index) => (
-              <div className="col-lg-4 col-md-6 wow fadeInUp border-rounded" data-wow-delay="0.1s">
-                <a className="service-item rounded" >
-                  <div className=" bg-transparent border rounded p-1">
-                    <div className="w-100">
-                    <img
-                      className="img-fluid flex-shrink-0 rounded  mx-auto w-100 p-2 "
-                      src={item.img}
-                      // style={{ width: "200px", height: "auto" }}
-                    />
-                    </div>
-                  </div>
-                  <p className="text-body mb-0 fs-5">{item.name}</p>
-                </a>
-              </div>
-            ))}
+           
             <br></br>
             <br></br>
             <br></br>
-            {testimonial.map((item, index) => (
-              <div className="col-lg-4 col-md-6 wow fadeInUp border-rounded" data-wow-delay="0.1s">
-                <a className="service-item rounded" >
-                  <div className=" bg-transparent border rounded p-1">
-                    <div className="w-100">
-                    <img
-                      className="img-fluid flex-shrink-0 rounded  mx-auto w-100 p-2 "
-                      src={item.img}
-                      // style={{ width: "200px", height: "auto" }}
-                    />
-                    </div>
-                  </div>
-                  {/* <p className="text-body mb-0 fs-5">{item.name}</p> */}
-                </a>
-              </div>
-            ))}
+         
             
           </div>
 
-< Sliders />
         </div>
       </div>
     </>
