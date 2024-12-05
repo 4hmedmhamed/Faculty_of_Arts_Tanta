@@ -13,11 +13,11 @@ export default function Home() {
       <Carousel />
       <About />
       <Floors />
+      {/* <Sliders /> */}
+      {/* <Line /> */}
+      {/* <Book /> */}
       <Services />
-      <Book />
-      <Sliders />
-      <Line />
-      <Teams />
+      {/* <Teams /> */}
     </>
   );
 }

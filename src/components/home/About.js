@@ -1,7 +1,7 @@
 import React from "react";
 import Heading from "../common/Heading";
 import { about } from "../data/Data";
-
+import Teams from "./Team";
 export default function About() {
   return (
     <>
@@ -78,6 +78,7 @@ export default function About() {
             </div>
           </div>
         </div>
+        {/* <Teams /> */}
       </div>
     </>
   );
