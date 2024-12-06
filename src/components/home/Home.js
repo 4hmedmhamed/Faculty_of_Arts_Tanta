@@ -7,6 +7,7 @@ import Floors from "./Floors";
 import Sliders from "./Slider";
 import Teams from "./Team";
 import Line from "./Line";
+import Scrolling from "./Scrolling";
 export default function Home() {
   return (
     <>
@@ -14,10 +15,10 @@ export default function Home() {
       <About />
       <Floors />
       <Line />
+      <Scrolling />
       <Sliders />
       <Book />
       <Services />
-      {/* <Teams /> */}
     </>
   );
 }

@@ -92,24 +92,8 @@ function Line() {
 
                                 </div>
                                 
-                                {floorItems.map((item, index) => (
-              <div className="col-lg-4 col-md-6 wow p-1 fadeInUp border-rounded " data-wow-delay="0.1s">
-                <a className="service-item rounded" >
-                  <div className=" bg-transparent border rounded ">
-                    <div className="w-100">
-                    <img
-                      className="img-fluid flex-shrink-0 rounded  mx-auto w-100 p-2 "
-                      src={item.img}
-                      // style={{ width: "200px", height: "auto" }}
-                    />
-                    </div>
-                  </div>
-                  <p className="text-body  fs-5">{item.name}</p>
-                </a>
-              </div>
-            ))}
+
                         </div>
-                        
                 </div>
         )
 }

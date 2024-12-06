@@ -114,51 +114,65 @@ export const team = [
   {
     id:"1",
     image: "../assets/img/team9.jpg",
-    name: "Full Name",
-    designation: "Designation",
-    te1:"0101"
+    name: "Aya Mohamed Ali",
+    designation: "AutoCad",
+    tel:"01159865671"
   },
   {id:"2",
     image: "../assets/img/team8.jpg",
-    name: "Full Name",
-    designation: "Designation",
+    name: "Manar  Elshahat Behiry",
+    designation: "Report",
+    tel:"01014781377"
+
   },
   {id:"3",
     image: "../assets/img/team3.jpg",
-    name: "Full Name",
-    designation: "Designation",
+    name: "Alaa Mohamed raslan",
+    designation: "AutoCad",
+    tel:"01028666934"
+
   },
   {id:"4",
     image: "../assets/img/team4.jpg",
-    name: "Full Name",
-    designation: "Designation",
+    name: "Ayman waled Mohamed",
+    designation: "Surveying / total station",
+    tel:"01018190398"
   },
   {id:"5",
     image: "../assets/img/team5.jpg",
-    name: "Full Name",
-    designation: "Designation",
+    name: " Mariem  Hussien  ",
+    designation: "Croquis poison",
+    tel:"01552252520"
   },
   {id:"6",
     image: "../assets/img/team6.jpg",
-    name: "Samar Anwar",
-    designation: "Designation",
+    name: "Samar Anwar Elmorsy",
+    designation: "Report",
+    tel:"01019680769"
+
   },
   {id:"7",
     image: "../assets/img/team7.jpg",
-    name: "Full Name",
-    designation: "Designation",
+    name: " Hamza Ibrahim saad",
+    designation: "Croquis poison",
+    tel:"01225693936"
+
   },
   {
      id:"8",
     image: "../assets/img/team2.jpg",
-    name: "Full Name",
-    designation: "Designation",
+    name: " Asmaa Ramadan Elabd",
+    designation: "Report",
+    tel:"01558253052"
+
   },
   {
      id:"9",
     image: "../assets/img/team1.jpg",
-    name: "Full Name",
-    designation: "Designation",
+    name: " Ahmed Mohamed mahrous",
+    designation: "web developer",
+    tel:"01010223620"
+
   },
 ];
 
@@ -338,3 +352,17 @@ export const floorItems = [
 
 ];
 
+export const program =[
+  {
+    img:"../assets/Slider/frist.jpg",
+    name:"app"
+  },
+  {
+    img:"../assets/Slider/frist.jpg",
+    name:"app"
+  },
+  {
+    img:"../assets/Slider/frist.jpg",
+    name:"app"
+  },
+]

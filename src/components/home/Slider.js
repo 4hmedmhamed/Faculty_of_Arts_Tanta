@@ -45,6 +45,7 @@ export default function Sliders() {
               ))}
             </Slider>
           </div>
+          
         </div>
       </div>
     </>

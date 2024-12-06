@@ -65,6 +65,8 @@ export default function Teams() {
                   <div className="text-center p-4 mt-3">
                     <h5 className="fw-bold mb-0">{item.name}</h5>
                     <small>{item.designation}</small>
+                    <br></br>
+                    <small>{item.tel}</small>
                   </div>
                 </div>
               </div>
