@@ -58,7 +58,7 @@ export default function Floors() {
                 data-sub-html="<h4>Photo by -Ahmed <h4>"
                 data-src={item.img}  className=''>
                 <div>
-                <img src={item.img} alt="img" className="img-fluid"/>
+                <img src={item.img} alt="img" className="img-fluid" style={{height:"200px" ,width:"400px"}}/>
                 </div>
               </div>
             </LightGallery>
@@ -76,7 +76,7 @@ export default function Floors() {
                     <div className="d-flex mb-3">
                    
                     </div>
-                    <p className="text-body mb-3">{item.description}</p>
+                    {/* <p className="text-body mb-3">{item.description}</p> */}
                     <div className="d-flex justify-content-between">
                  
                     </div>

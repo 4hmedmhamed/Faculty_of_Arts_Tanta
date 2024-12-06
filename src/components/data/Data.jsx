@@ -2,7 +2,7 @@ export const navList = [
   {
     id: 1,
     path: "/",
-    text: "الرئسيه",
+    text: "الرئيسيه",
   },
   {
     id: 2,
@@ -223,11 +223,11 @@ export const testimonial = [
 },
 
 {
-    name: " 7_	كتابة تقريرالعمل المساحى.",
+    name: " 6_	كتابة تقريرالعمل المساحى.",
   icon: (
     <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
   ),
-  img: "../assets/Slider/frist.jpg",
+  img: "../assets/Slider/five.jpg",
 },
   {
       name: " 1_ العمل المكتبى . ",
@@ -258,8 +258,8 @@ export const Banner =[
 ] 
 export const floorItems = [
   {
-    img: "../assets/img/frist.png",
-    name: "الدور الارضي",
+    img: "../assets/img/main.png",
+    name: "الكروكي الخارجي",
     star: [
       <small class="fa fa-star text-primary"></small>,
       <small class="fa fa-star text-primary"></small>,
@@ -289,8 +289,38 @@ export const floorItems = [
     darkbtn: "book now",
   },
   {
-    img: "../assets/img/frist.png",
-    name: "الدور الارضي",
+    img: "../assets/img/fristtt.png",
+    name: "الدور الاول",
+    star: [
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+    ],
+    description:
+      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+    yellowbtn: "View Detail",
+    darkbtn: "book now",
+  },
+  {
+    img: "../assets/img/secondd.png",
+    name: "الدور الثاني",
+    star: [
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+      <small class="fa fa-star text-primary"></small>,
+    ],
+    description:
+      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+    yellowbtn: "View Detail",
+    darkbtn: "book now",
+  },
+  {
+    img: "../assets/img/third.png",
+    name: "الدور الثالث",
     star: [
       <small class="fa fa-star text-primary"></small>,
       <small class="fa fa-star text-primary"></small>,
@@ -305,37 +335,7 @@ export const floorItems = [
   },
   {
     img: "../assets/img/frist.png",
-    name: "الدور الارضي",
-    star: [
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-    ],
-    description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
-    yellowbtn: "View Detail",
-    darkbtn: "book now",
-  },
-  {
-    img: "../assets/img/frist.png",
-    name: "الدور الارضي",
-    star: [
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-    ],
-    description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
-    yellowbtn: "View Detail",
-    darkbtn: "book now",
-  },
-  {
-    img: "../assets/img/frist.png",
-    name: "الدور الارضي",
+    name: "الدور الرابع",
     star: [
       <small class="fa fa-star text-primary"></small>,
       <small class="fa fa-star text-primary"></small>,
@@ -354,8 +354,8 @@ export const floorItems = [
 
 export const program =[
   {
-    img:"../assets/Slider/frist.jpg",
-    name:"app"
+    img:"../assets/img/main.png",
+    name:"AutoCad"
   },
   {
     img:"../assets/Slider/frist.jpg",
