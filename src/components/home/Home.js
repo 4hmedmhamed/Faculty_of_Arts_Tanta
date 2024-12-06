@@ -15,7 +15,7 @@ export default function Home() {
       <Floors />
       <Line />
       <Sliders />
-      {/* <Book /> */}
+      <Book />
       <Services />
       {/* <Teams /> */}
     </>
