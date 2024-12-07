@@ -10,7 +10,7 @@ export default function About() {
         <div className="container">
           <div className="row g-5 align-items-center">
           
-            <div className="col-lg-6">
+            <div className="col-lg-6 ">
               <h6 className="section-title text-end text-primary  fs-5">
               كلية الآداب
               </h6>
@@ -18,15 +18,16 @@ export default function About() {
               كلية الآداب جامعة طنطا {" "}
                 <span className="text-primary text-uppercase">فى مجمع سبرباى</span>
               </h1>
-              <p className="mb-4 fs-4">
+              <p className="mb-4 fs-4 ">
               
               المجمع والتى تم إفتتاحها عام 2005 م ثم أخذت الكلية تنمو وتتسع سنة بعد أخرى بشكل ملحوظ ظهر التوسع فى إنشاء أقسام جديدة ولزيادة اعداد المقبولين بها من الطلاب وقد صاحب هذا النمو تطور ملموس فى المجالات العلمية حيث إزدادت وتنوعت مجالات التخصص وقدتم إفتتاح المبنى الجديد للكلية وأصبحت جاهزة للدراسة فى العام الدراسى 2023/2024 وقد 
               إهتمت برعاية ذوى الإعاقة  
               </p>
               <div className="row g-3 pb-4">
                 {about.map((item, key) => (
-                  <div className="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
-                    <div className="border rounded p-1">
+        
+                  <div className="col-sm-4 wow fadeIn  " data-wow-delay="0.1s ">
+                    <div className="border rounded p-1 img_about">
                       <div className="border rounded text-center p-4">
                         {item.icon}
                         <h2 className="mb-1" data-toggle="counter-up">
@@ -42,8 +43,8 @@ export default function About() {
                 Explore More
               </a>
             </div>
-            <div className="col-lg-6">
-              <div className="row g-3">
+            <div className="col-lg-6  ">
+              <div className="row g-3 img_about">
                
                 <div className="col-6 text-start">
                   <img
@@ -60,7 +61,7 @@ export default function About() {
                     style={{ marginTop: "40%" }}
                   />
                 </div>
-                <div className="col-6 text-start">
+                <div className="col-6 text-start ">
                   <img
                     className="img-fluid rounded w-50 wow zoomIn"
                     data-wow-delay="0.5s"

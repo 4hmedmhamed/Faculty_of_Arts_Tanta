@@ -86,3 +86,23 @@
      100%   { width: 100%; opacity: 1; margin-right:0%; transform: rotate(360deg);}
    
   }
+.img_about{
+    /* border-radius: 20px; */
+    animation-name: img_about;
+    animation-duration: 3s;
+    /* animation-delay: 1s; */
+    margin-right: 100%;
+    /* width: 100px; */
+    opacity: .2;
+    animation-fill-mode: both;
+    /* transform: rotate(0deg); */
+    transition: -100%;
+    /* transform: ; */
+  }
+  
+  @keyframes img_about {
+     0%   { opacity: .2; margin-right: 100%;}
+     50%   { opacity: .7; margin-right:50%; }
+     100%   { opacity: 1; margin-right:0%; }
+   
+  }
