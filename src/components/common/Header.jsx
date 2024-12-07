@@ -23,13 +23,13 @@ export default function Header() {
               to="/"
               className="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center"
             >
-              <img src="\assets\img\Logo-Photoroom.png" className="Logo" />
+              <img src="\assets\img\Logo.jpg" className="Logo" />
             </Link>
           </div>
           <div className="col-lg-9">
             <nav className="navbar navbar-expand-lg  navbar-dark p-3 p-lg-0">
               <Link to="/" className="navbar-brand d-block d-lg-none">
-                <img src="\assets\img\Logo-Photoroom.png" className="Logo" style={{ width: "50px" }} />
+                <img src="\assets\img\Logo.jpg" className="Logo" style={{ width: "50px" }} />
               </Link>
               <button
                 type="button"
