@@ -358,11 +358,12 @@ export const program =[
     name:"AutoCad"
   },
   {
-    img:"../assets/Slider/frist.jpg",
-    name:"app"
+    img:"../assets/img/main.png",
+    name:"AutoCad"
   },
   {
-    img:"../assets/Slider/frist.jpg",
-    name:"app"
+    img:"../assets/img/main.png",
+    name:"AutoCad"
   },
+ 
 ]

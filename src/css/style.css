@@ -211,7 +211,7 @@
 
 .service-item:hover i,
 .service-item:hover h5,
-.service-item:hover p {
+.:hover p {
     color: #FFFFFF !important;
 }
 
