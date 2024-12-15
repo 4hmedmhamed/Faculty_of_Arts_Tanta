@@ -7,7 +7,7 @@ export const navList = [
   {
     id: 2,
     path: "/about",
-    text: " الويب المساحي" ,
+    text: " من نحن " ,
   },
   {
     id: 3,
@@ -28,41 +28,48 @@ export const navList = [
 export const socialIcons = [
   {
     icon: <i className="fab fa-facebook-f"></i>,
+    Link:"https://www.facebook.com/alaa.e.mohamed.1291?mibextid=ZbWKwL"
   },
-  {
-    icon: <i className="fab fa-twitter"></i>,
-  },
-  {
-    icon: <i className="fab fa-instagram"></i>,
-  },
-  {
-    icon: <i className="fab fa-linkedin-in"></i>,
-  },
-  {
-    icon: <i className="fab fa-youtube"></i>,
-  },
+  // {
+  //   icon: <i className="fab fa-twitter"></i>,
+  // },
+  // {
+  //   icon: <i className="fab fa-instagram"></i>,
+  // },
+  // {
+  //   icon: <i className="fab fa-linkedin-in"></i>,
+  // },
+  // {
+  //   icon: <i className="fab fa-youtube"></i>,
+  // },
 ];
 
 export const carouselData = [
-
   {
     img: "../assets/img/croucel1.jpg",
     title: "كليه الاداب جامعه طنطا",
     subtitle: "كليه الاداب",
-  
+    
   },
   {
     img: "../assets/img/lucher.png",
-    title: "Dr:Alaa Eldin ",
+    // title: "Dr:Alaa Eldin ",
     subtitle: "كليه الاداب",
-  
+    
   },
   {
     img: "../assets/img/team22.jpg",
     // title: "كليه الاداب جامعه طنطا",
     subtitle: "كليه الاداب",
-  
+    
   },
+  
+    {
+      img: "../assets/img/BannerGloabal.png",
+      // title: "كليه الاداب جامعه طنطا",
+      subtitle: "كليه الاداب",
+    
+    },
 ];
 export const about = [
   {
@@ -93,7 +100,7 @@ export const services = [
   },
   {
     icon: <i class="fa fa-spa fa-2x text-primary"></i>,
-    discription: "	تسهل على الطلاب توفير الوقت وتسهيل الدراسة وتنجز لهم الكثير من الإنجازات من دون عبء حيث يمكن أنجاز كل ذلك من خلال الانترنت .",
+    discription: "	 تسهل على الطلاب الدراسة وتنجز لهم الكثير من الوقت   دون عبء   ",
   },
 
   {
@@ -107,7 +114,7 @@ export const services = [
 
   {
     icon: <i class="fa fa-dumbbell fa-2x text-primary"></i>,
-    discription: "	تسهيل التواصل بين الطلاب والدكتور وتعتبر من الوسائل الرائعة فى تيسير عملية التعليم وذلك من خلال التعليم عن بعد للتواصل بين الجامعات بواسطة المواقع الإلكترونية .",
+    discription: "	تسهيل التواصل بين الطلاب  التعليم عن بعد بواسطة المواقع الإلكترونية .",
   },
 ];
 export const team = [
@@ -219,7 +226,7 @@ export const testimonial = [
   icon: (
     <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
   ),
-  img: "../assets/Slider/frist.jpg",
+  img: "../assets/Slider/right.jpg",
 },
 
 {
@@ -354,16 +361,16 @@ export const floorItems = [
 
 export const program =[
   {
-    img:"../assets/img/main.png",
-    name:"AutoCad"
+    img:"../assets/img/axel.jpg",
+    name:"excel"
   },
   {
     img:"../assets/img/main.png",
     name:"AutoCad"
   },
   {
-    img:"../assets/img/main.png",
-    name:"AutoCad"
+    img:"../assets/img/soci.jpg",
+    name:"sokkia link"
   },
  
 ]

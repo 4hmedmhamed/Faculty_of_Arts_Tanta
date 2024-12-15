@@ -7,7 +7,6 @@ function Line() {
                 <div className=" container" dir='rtl'>
                         <div className='container row mt-5'>
                                 <h5 className='fs-2 m-2  '>
-
                                         مواقع لاهم البرامج الجغرافيه العالميه :
                                 </h5>
 
