@@ -341,7 +341,7 @@ export const floorItems = [
     darkbtn: "book now",
   },
   {
-    img: "../assets/img/frist.png",
+    img: "../assets/img/four.png",
     name: "الدور الرابع",
     star: [
       <small class="fa fa-star text-primary"></small>,
