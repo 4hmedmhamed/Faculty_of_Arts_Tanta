@@ -46,13 +46,19 @@ export const socialIcons = [
 
 export const carouselData = [
   {
+    img: "../assets/img/BannerGloabal.png",
+    // title: "كليه الاداب جامعه طنطا",
+    subtitle: "كليه الاداب",
+  
+  },
+  {
     img: "../assets/img/croucel1.jpg",
     title: "كليه الاداب جامعه طنطا",
     subtitle: "كليه الاداب",
     
   },
   {
-    img: "../assets/img/lucher.png",
+    img: "../assets/img/lucher1.png",
     // title: "Dr:Alaa Eldin ",
     subtitle: "كليه الاداب",
     
@@ -64,12 +70,6 @@ export const carouselData = [
     
   },
   
-    {
-      img: "../assets/img/BannerGloabal.png",
-      // title: "كليه الاداب جامعه طنطا",
-      subtitle: "كليه الاداب",
-    
-    },
 ];
 export const about = [
   {

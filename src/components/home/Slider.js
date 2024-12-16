@@ -34,7 +34,7 @@ export default function Sliders() {
                     <img
                       className="img-fluid flex-shrink-0 rounded  mx-auto "
                       src={item.img}
-                      style={{ width: "70%", height: "auto" }}
+                      style={{ width: "70%", height: "70vh" }}
                     />
                     <div className="ps-3">
                     </div>
