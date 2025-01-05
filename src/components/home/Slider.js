@@ -32,9 +32,14 @@ export default function Sliders() {
                 >
                   <div className="d-flex align-items-center border m-2 ">
                     <img
-                      className="img-fluid flex-shrink-0 rounded  mx-auto "
+                      className="img-fluid flex-shrink-0 rounded  mx-auto d-none d-lg-block "
                       src={item.img}
                       style={{ width: "70%", height: "70vh" }}
+                    />
+                    <img
+                      className="img-fluid flex-shrink-0 rounded  mx-auto  d-block d-lg-none "
+                      src={item.img}
+                      style={{ width: "70%", height: "30vh" }}
                     />
                     <div className="ps-3">
                     </div>
